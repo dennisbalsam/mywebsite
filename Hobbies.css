@@ -1,0 +1,95 @@
+
+
+.container{
+    width:900px;
+    height:1550px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+}
+.h2-hobbies{
+    color: #ff5930;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 30px 3px black;
+
+}
+.p-hobbies{
+    color: white;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding-top: 10px;
+    background-color: #0381ff;
+    margin-top: 40px;
+    height: 100px;
+}
+.p-hobbies:hover{
+    transform: scale(1.2);
+}
+.comp-img{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid rgb(3, 129, 255);
+    border-radius: 40px;
+    cursor:pointer;
+
+}
+.comp-imgtext{
+    font-family: 'Righteous', cursive;
+    padding-top: 7px;
+    color: #0381ff;
+    text-align: center;
+    background-color: rgba(255, 225,0, 0.5);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 40px;
+   
+}
+.games-title{
+    font-family: 'Righteous', cursive;
+    padding-top: 7px;
+    color: #0381ff;
+    text-align: center;
+
+}
+.pc-games{
+    text-align: center;
+    list-style-type: none;
+    text-align: center;
+    margin-right: 35px;
+}
+.all-games{
+    background-color: rgba(255, 225,0, 0.5); 
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Righteous', cursive;
+    border-bottom: 1px solid black;
+    border-radius: 40px;
+}
+.all-games:hover{
+    transform: scale(1.4);
+}
+.lax-stats{
+    display: inline-block;
+    font-family: 'Righteous', cursive;
+    padding: 37px;
+    margin-left: 20px;
+    background-color: rgba(255, 225,0, 0.5); 
+    border-radius: 30px;
+}
+.lax-stats:hover{
+    transform: rotate(360deg);
+    transition: 1500ms;
+}
+.lax{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #0381ff;
+}

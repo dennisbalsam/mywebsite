@@ -1,0 +1,167 @@
+
+.container{
+    width:900px;
+    height:1850px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+}
+
+.h2-favoritesports{
+    color: #ff5930;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+
+}
+.p-fav-sports{
+    color: white;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding-top: 10px;
+    background-color: #0381ff;
+    height: 110px;
+}
+.p-fav-sports:hover{
+    transform: scale(1.2);
+}
+.favsportsresize { 
+    height: 35px;
+    width: 35px;
+    margin-bottom: -5px;
+}
+.h3-favoritesports{
+    color: #ff5930;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+}
+strong{
+    color: #ffe100;
+    font-size: 20px;
+}
+.thunder{
+    height: 130px;
+    width: 130px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.yankee{
+    height: 180px;
+    width: 180px;
+    margin-bottom: -20px;
+    margin-left: 140px;
+
+}
+.giants{
+    height: 140px;
+    width: 200px;
+    margin-bottom: 0px;
+    margin-left: 105px;
+
+}
+.logo:hover{
+    transform: scale(1.3);
+}
+.question-box{
+    background-color: rgba(135, 135, 132, 0.5); 
+    width: 400px;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    border-radius: 40px;
+}
+.question{
+    color: #2b24ff;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding-top: 20px;
+    font-size: 23px;
+    margin-bottom: -50px;
+
+}
+.answer{
+    color: #2b24ff;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 23px;
+    display: none;
+    margin-left: 100px;
+}
+.hint{
+    color: rgb(43, 36, 255);
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding-top: 35px;
+    font-size: 15px;
+}
+
+.question-box:hover .question {
+    display: none;
+}
+.question-box:hover .hint {
+    display: none;
+}
+.question-box:hover .answer {
+    display: inline-block;
+    transform: scale(1.5);
+}
+.yankee-stadium{
+    background-color: rgb(3, 129, 255);
+    height: 430px;
+    margin-top: 50px;
+}
+.stadiumresize{
+    height: 250px;
+    width: 250px;
+    margin-left: 35px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.stadium1:hover{
+    transform: matrix(1.5, 0, 0, 1.5, -30, -10);
+}
+.stadium2:hover{
+    transform: matrix(1.5, 0, 0, 1.5, 0,0);
+}
+.stadium3:hover{
+    transform: matrix(1.5, 0, 0, 1.5, 30, -10);
+}
+.photo-descript{
+    color: white;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+ul{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.listdesign{
+     text-decoration: none;
+     list-style-type: none;
+     color: black;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
+    background-color: rgba(3, 129, 255, 0.5); 
+    border-bottom: 1px solid black;
+    border-radius: 8px;
+
+}
+.list-top{
+    color: #2b24ff;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    background-color: rgba(135, 135, 132, 0.5); 
+    font-size: 20px;
+    width: 210px;
+    border-radius: 10px;
+    text-decoration: none;
+     list-style-type: none;
+}
+.listdesign:hover{
+    transform: scale(1.2);
+}

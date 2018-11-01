@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Entrance Page</title>
+    <link href ="css/Entrance.css" rel ="stylesheet">
+    <link href ="css/Sharedcss.css" rel ="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+</head>
+
+<body>
+        <header>
+                <div class="h1-image"><h1 class="header-text">The Man, The Myth, The Legend
+                    <br>  Dennis Krupitsky
+                </h1> 
+                </div>
+            </header>
+<div class="container">
+<nav>
+    <ul>
+        <li class= "spacing highlight"><a href="About.html"> About </a></li>
+        <li class= "spacing highlight"><a href="Hobbies.html"> Hobbies </a></li>
+        <li class="spacing highlight"><a href="SportsFan.html"> Sports Teams </a></li>
+    </ul>
+</nav>
+<div class="form-container">
+<p class = "form-container-text">Everyone visiting must fill out form before entering</p>
+    
+<div class="form">
+        <form>
+
+
+<p><label class="block" for ="relationship"> Relationship*:</label> 
+        <select class="box-border " required id="relationship" name="relationship"> 
+            <option value="">Choose one</option>
+            <option value="family">Family</option>
+            <option value="friend">Frend</option>
+            <option value="teacher">Teacher</option>
+            <option value="peer">Peer</option>
+        </select>
+</p>
+<p> <label class="block" for ="pre-fix"> Pre-Fix*: </label>
+    <select class="box-border " required id="pre-fix" name="pre-fix"> 
+        <option value="">Choose one</option>
+        <option value="king">King</option>
+        <option value="lord">Lord</option>
+        <option value="dr">Dr.</option>
+        <option value="mr">Mr.</option>
+        <option value="ms">Ms.</option>
+        <option value="mrs">Mrs.</option>
+        <option value="sir">Sir</option>
+    </select> </p>
+<p> <label class="block input-box" for ="firstname"> First Name*:</label> 
+    <input class="box-border textinput " placeholder ="Your first name" required = "required" id ="firstname" name ="firstname" type = "text" > </p>
+
+<p> <label class="block input-box" for ="lastname"> Last Name*:</label> 
+    <input class="box-border textinput " placeholder ="Your last name" required = "required" id ="lastname" name ="lastname" type = "text" > 
+</p>
+
+<p> <label class="block input-box" for ="email"> Email*:</label> 
+    <input class="box-border textinput " placeholder ="Your email" required = "required" id ="email" name ="email" type = "email" > 
+</p>
+
+<p> Favorite Rapper*: <br>
+    <input required="required" value ="eminem" name ="rapper" type ="radio" id ="eminem">
+     <label for="eminem" >Eminem</label>
+
+    <input required="required" value ="kanye" name ="rapper" type ="radio" id ="kanye"> 
+    <label for="kanye" > Kanye West</label>
+
+    <input required="required" value ="50cent" name ="rapper" type ="radio" id ="50cent"> 
+    <label for="50cent" >50 Cent</label>
+
+    <input required="required" value ="lilwayne" name ="rapper" type ="radio" id ="lilwayne"> 
+    <label for="lilwayne" > Lil Wayne</label>
+
+    <input value ="other" name ="rapper" type ="radio" id ="other"> 
+    <label for="other" > Other</label>
+</p>
+<p> <label for="reasonforentry"> Reason For Entry: </label> 
+    <textarea placeholder="Optional...." class="box-border padding-10 textinput " name="reasonforentry" id ="reasonforentry"></textarea> </p>
+
+    <p class=text-center><input class="submit" type="submit" value="Submit"> </p>
+    </form>
+</div>
+</div>
+<footer >
+        <div class="h1-image"><h1 class="footer-text">The Most Interesting Man in the World </h1> 
+        </div>
+</footer>
+</div>
+</body>
+</html>

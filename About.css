@@ -1,0 +1,139 @@
+
+.h1-box{
+    background-color: white;
+    width: 900px;
+    height: 50px;
+    margin-top: 0px; 
+    border-bottom: 3px solid black;
+
+}
+.container{
+    width:900px;
+    height:2000px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+}
+.h1-text{
+    color: teal;
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    padding-top: 3px;
+    text-shadow: 3px 5px #ffe856;
+}
+.text-align{
+    text-align: center;
+}
+.p-box{
+    background-color: white;
+    width: 900px;
+    height: 200px;
+    margin-top: 0px; 
+    margin-bottom: 10px;
+    border-bottom: 3px solid black;
+
+}
+.p1-text{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+    padding-top: 30px;
+    color: teal;    
+    font-weight: bold;
+}
+img{
+    height: 350px;
+    width: 400px;
+}
+.photo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.photo-container .photo{
+    margin: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:purple;
+    transition: all 900ms;
+    margin-top: 20px;   
+    position: relative;
+}
+.photo-description{
+    position: absolute;
+    padding:0px;
+    background:rgba(61,194,255,0.5);
+    color:black;
+    width:400px;
+    height: 30px;
+    display:none;
+    font-family: 'Righteous', cursive;
+}
+.photo:hover .photo-description{
+    display: block;
+}
+.photo-scale:hover{
+    transform: scale(1.1);
+    
+}
+.gallery-box{
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 815px;
+    height: 100px;
+    background-color: #0381ff;
+    border-radius: 140px;
+}
+.gallery-box:hover{
+    transform: scale(1.1);
+}
+.gallery{
+    text-align: center;
+    padding: 3px;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    color: #ffe100;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+}
+.twitter-resize{
+    height: 70px;
+    width: 70px;
+    padding-top: 20px;
+    margin: 5px;
+    zoom: 90%;
+    cursor:pointer;
+}
+.box-media{
+    width: 900px;
+}
+.insta-resize{
+    height: 70px;
+    width: 70px;
+    zoom: 110%;
+    padding-top: 20px;
+    cursor:pointer;
+}
+.vid-description{
+    display: block;
+    width: 350px; 
+    float: left;
+    font-family: 'Righteous', cursive;
+    color: #ffe100;
+    height: 70px;
+    background-color: #0381ff;
+    border-radius: 140px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+}
+iframe{
+    border: 10px solid #0381ff;
+    border-radius:10px;
+}
